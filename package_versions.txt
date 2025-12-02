@@ -367,10 +367,10 @@ groff                                                                         1.
 gsettings-desktop-schemas                                                     49.1-1                                  alpm                           
 gsettings-system-schemas                                                      49.1-1                                  alpm                           
 gssdp                                                                         1.6.4-1                                 alpm                           
-gst-plugins-bad-libs                                                          1.26.8-1                                alpm                           
-gst-plugins-base                                                              1.26.8-1                                alpm                           
-gst-plugins-base-libs                                                         1.26.8-1                                alpm                           
-gstreamer                                                                     1.26.8-1                                alpm                           
+gst-plugins-bad-libs                                                          1.26.9-1                                alpm                           
+gst-plugins-base                                                              1.26.9-1                                alpm                           
+gst-plugins-base-libs                                                         1.26.9-1                                alpm                           
+gstreamer                                                                     1.26.9-1                                alpm                           
 gtest                                                                         1.17.0-1                                alpm                           
 gtk-update-icon-cache                                                         1:4.20.3-1                              alpm                           
 gtk4                                                                          1:4.20.3-1                              alpm                           
@@ -446,7 +446,7 @@ libcap                                                                        2.
 libcap-ng                                                                     0.8.5-3                                 alpm                           
 libcloudproviders                                                             0.3.6-2                                 alpm                           
 libcolord                                                                     1.4.8-1                                 alpm                           
-libcups                                                                       2:2.4.15-1                              alpm                           
+libcups                                                                       2:2.4.15-2                              alpm                           
 libdaemon                                                                     0.14-6                                  alpm                           
 libdatrie                                                                     0.2.14-1                                alpm                           
 libdeflate                                                                    1.24-1                                  alpm                           
