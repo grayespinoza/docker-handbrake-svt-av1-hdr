@@ -19,7 +19,7 @@ pipeline {
     DOCKERHUB_TOKEN=credentials('docker-hub-ci-pat')
     QUAYIO_API_TOKEN=credentials('quayio-repo-api-token')
     GIT_SIGNING_KEY=credentials('484fbca6-9a4f-455e-b9e3-97ac98785f5f')
-    BUILD_VERSION_ARG = 'handbrake_VERSION'
+    BUILD_VERSION_ARG = 'HANDBRAKE_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-handbrake'
     CONTAINER_NAME = 'handbrake'
