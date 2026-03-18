@@ -20,7 +20,8 @@ RUN \
   echo "**** install packages ****" && \
   pacman -Sy --noconfirm --needed \
    "handbrake${HANDBRAKE_VERSION:+=$HANDBRAKE_VERSION}" \
-    handbrake-cli && \
+    handbrake-cli \
+    intel-media-sdk && \
   echo "**** cleanup ****" && \
   printf \
     "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" \
