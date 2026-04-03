@@ -102,6 +102,7 @@ init_diagram: |
   "handbrake:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "03.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "18.03.26:", desc: "Add intel media libs."}
   - {date: "28.12.25:", desc: "Add Wayland init logic."}
   - {date: "29.11.25:", desc: "Initial Version."}

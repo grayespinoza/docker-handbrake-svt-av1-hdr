@@ -10,7 +10,9 @@ ARG HANDBRAKE_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
-ENV TITLE=HandBrake
+ENV TITLE=HandBrake \
+    NO_GAMEPAD=true \
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -21,7 +23,8 @@ RUN \
   pacman -Sy --noconfirm --needed \
    "handbrake${HANDBRAKE_VERSION:+=$HANDBRAKE_VERSION}" \
     handbrake-cli \
-    intel-media-sdk && \
+    intel-media-sdk \
+    onevpl-intel-gpu && \
   echo "**** cleanup ****" && \
   printf \
     "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" \
